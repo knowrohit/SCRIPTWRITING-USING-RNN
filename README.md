@@ -44,7 +44,6 @@ Notice also that the first time the character “l” is input, the target is �
 
 ![image](https://user-images.githubusercontent.com/48828304/170945848-f21f6449-e852-4e70-9c0d-bae266a1023c.png)
 
-![image](https://user-images.githubusercontent.com/48828304/170945883-7bb5f877-3c6a-4c6d-be18-051c56f02a2f.png)
 
 At test time, we feed a character into the RNN and get a distribution over what characters are likely to come next. We sample from this distribution, and feed it right back in to get the next letter. Repeat this process and you’re sampling text! Lets now train an RNN on different datasets and see what happens.
 
